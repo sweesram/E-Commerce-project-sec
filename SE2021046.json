@@ -1,10 +1,9 @@
 {
-  "sid": "SE2021XXX",
-  "name": "Your Name with Initials",
-  "app-url": "http://localhost:8080",
-  "git": "https://github.com/yourusername/secure-ecommerce-app",
+  "sid": "SE2021046",
+  "name": "Ramachandran Sweeskaran",
+  "app-url": "http://localhost:5173",
+  "git": "https://github.com/sweesram/E-Commerce-project-sec",
   "blog": [
-    "https://medium.com/@yourusername/building-secure-ecommerce-app-with-spring-boot-and-auth0",
-    "https://yourblog.com/owasp-top10-security-implementations"
+    "https://medium.com/@rsweeskaran/secure-e-commerce-application-with-spring-boot-react-js-and-owasp-top-10-security-b7b899d6fe00"
   ]
 }
