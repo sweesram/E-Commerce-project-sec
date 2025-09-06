@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme Variables */
+.dark-theme {
+  --root_background: #111213;
+}
+.light-theme {
+  --root_background: #f5f6f8;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: var(--root_background);
+  margin: 0;
+}
+
+/* Test if Tailwind is working */
+.test-tailwind {
+  @apply bg-red-500 text-white p-4;
+}
+
+/* Custom utilities for product cards */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.min-h-\[3\.5rem\] {
+  min-height: 3.5rem;
+}
